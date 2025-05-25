@@ -1,0 +1,60 @@
+.problem-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.problem-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.problem-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.problem-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.problem-title a:hover {
+  color: #4285f4;
+}
+
+.problem-info {
+  margin-bottom: 10px;
+}
+
+.problem-difficulty {
+  display: inline-block;
+  padding: 4px 8px;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.problem-description {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.solve-btn {
+  display: inline-block;
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.solve-btn:hover {
+  background-color: #3367d6;
+} 
